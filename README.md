@@ -4,7 +4,7 @@
 
 Author: Yang Shaohui (shyang@ethz.ch)
 
-Collaborator: Wang Tianlu ()
+Collaborator: Wang Tianlu (tiawang@ethz.ch)
 
 Computing Source(GPU) Provider: Zilly Julian (jzilly@ethz.ch)
 
