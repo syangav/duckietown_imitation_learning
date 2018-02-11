@@ -10,7 +10,7 @@ Computing Source(GPU) Provider: Zilly Julian (jzilly@ethz.ch)
 
 Course: [Autonomous Mobility on Demand: From Car to Fleet](http://www.vvz.ethz.ch/lerneinheitPre.do?semkez=2017W&lerneinheitId=119019&lang=en)
 
-Project: Deep Learning in [Duckietown](http://book.duckietown.org/master/duckiebook/)
+Project: Deep Learning in [Duckietown](http://duckietown.mit.edu/)
 
 Place: ETH Zurich
 
@@ -59,7 +59,7 @@ Actually more work can be done with a better training dataset.
 
 ## Installation Guide
 
-All code here are supposed to run in a Linux machine. The demo.py will require [caffe](https://github.com/BVLC/caffe) and [ncsdk](https://movidius.github.io/ncsdk/install.html) installed.
+All code here are supposed to run on a Ubuntu Linux(16.04) machine due to the limitation of the neural stick. The demo.py will require [caffe](https://github.com/BVLC/caffe) and [ncsdk](https://movidius.github.io/ncsdk/install.html) installed.
 
 If you have a Duckiebot and want to try out the demo with Duckietown software, try this [link](https://github.com/duckietown/duckuments/blob/devel-super-learning-jan15/docs/atoms_20_setup_and_demo/30_demos/15_imitation_learning.md).
 
@@ -72,3 +72,7 @@ How to train your own caffe model?
 How to convert a caffe model to a movidius graph file?
 
   - mvNCCompile deploy.prototxt -w duckie_model_iter_10000.caffemodel -s 12 -o GRAPH_FILE_NAME
+
+How to play around more within Duckietown?
+
+  - The Duckietown program was first started in MIT then in ETH, UDEM, TTIC. Softwares are online [here](https://github.com/duckietown/Software). Everything can be found via the [Duckiebook](http://book.duckietown.org/master/duckiebook/).
