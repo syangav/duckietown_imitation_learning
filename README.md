@@ -6,7 +6,7 @@ Author: Yang Shaohui (shyang@ethz.ch)
 
 Collaborator: Wang Tianlu (tiawang@ethz.ch)
 
-Computing Source(GPU) Provider: Zilly Julian (jzilly@ethz.ch)
+Computing Source(GPU) Provider: Zilly Julian
 
 Course: [Autonomous Mobility on Demand: From Car to Fleet](http://www.vvz.ethz.ch/lerneinheitPre.do?semkez=2017W&lerneinheitId=119019&lang=en)
 
